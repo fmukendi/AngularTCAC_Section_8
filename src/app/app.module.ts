@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { AppComponent } from './app.component';
 import { AppRoutingModule, routedComponents } from './app-routing.module';
 import { FormComponent } from './form/form.component';
+import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
 
 @NgModule({
     imports: [
@@ -42,7 +43,8 @@ import { FormComponent } from './form/form.component';
     declarations: [
         AppComponent,
         routedComponents,
-        FormComponent
+        FormComponent,
+        NewCourseFormComponent
     ],
     providers: [
     ],

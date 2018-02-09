@@ -1,3 +1,4 @@
+import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -14,6 +15,10 @@ const routes: Routes = [
     {
         path: 'form',
         component: FormComponent
+    },
+    {
+        path: 'newCourseForm',
+        component: NewCourseFormComponent
     },
 
     // otherwise redirect to home
